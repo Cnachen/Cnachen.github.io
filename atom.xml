@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-05T09:57:34.963Z</updated>
+  <updated>2018-08-05T10:12:27.107Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,12 +21,23 @@
     <link href="http://yoursite.com/2018/08/05/DaiBoYu/"/>
     <id>http://yoursite.com/2018/08/05/DaiBoYu/</id>
     <published>2018-08-05T09:57:34.000Z</published>
-    <updated>2018-08-05T09:57:34.963Z</updated>
+    <updated>2018-08-05T10:12:27.107Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>About DaiBoYu</strong></p><p>Infinite DaiBoYu, a SB</p>]]></content>
     
     <summary type="html">
     
+      
+      
+        &lt;p&gt;&lt;strong&gt;About DaiBoYu&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Infinite DaiBoYu, a SB&lt;/p&gt;
+
+      
+    
     </summary>
     
+    
+      <category term="SB" scheme="http://yoursite.com/tags/SB/"/>
     
   </entry>
   

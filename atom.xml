@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-05T10:12:27.107Z</updated>
+  <updated>2018-08-05T10:18:55.624Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,16 @@
     <link href="http://yoursite.com/2018/08/05/DaiBoYu/"/>
     <id>http://yoursite.com/2018/08/05/DaiBoYu/</id>
     <published>2018-08-05T09:57:34.000Z</published>
-    <updated>2018-08-05T10:12:27.107Z</updated>
+    <updated>2018-08-05T10:18:55.624Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>About DaiBoYu</strong></p><p>Infinite DaiBoYu, a SB</p>]]></content>
+    <content type="html"><![CDATA[<hr><h3 id="Q-About-DaiBoYu"><a href="#Q-About-DaiBoYu" class="headerlink" title="Q:About DaiBoYu"></a>Q:About DaiBoYu</h3><p>A:Infinite DaiBoYu, a SB.</p><hr><h3 id="Q-Why-DaiBoYu-is-a-SB"><a href="#Q-Why-DaiBoYu-is-a-SB" class="headerlink" title="Q:Why DaiBoYu is a SB?"></a>Q:Why DaiBoYu is a SB?</h3><p>A:Cause he almost forget me.</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;strong&gt;About DaiBoYu&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Infinite DaiBoYu, a SB&lt;/p&gt;
-
+        &lt;hr&gt;
+&lt;h3 id=&quot;Q-About-DaiBoYu&quot;&gt;&lt;a href=&quot;#Q-About-DaiBoYu&quot; class=&quot;headerlink&quot; title=&quot;Q:About DaiBoYu&quot;&gt;&lt;/a&gt;Q:About DaiBoYu&lt;/h3&gt;&lt;p&gt;A:Infinite Da
       
     
     </summary>

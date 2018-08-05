@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-05T10:22:44.290Z</updated>
+  <updated>2018-08-05T11:00:21.002Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>安装ArchLinux的简单记录</title>
+    <link href="http://yoursite.com/2018/08/05/archlinux-installion-guide/"/>
+    <id>http://yoursite.com/2018/08/05/archlinux-installion-guide/</id>
+    <published>2018-08-05T10:27:10.000Z</published>
+    <updated>2018-08-05T11:00:21.002Z</updated>
+    
+    <content type="html"><![CDATA[<hr><h3 id="Pre-Installion"><a href="#Pre-Installion" class="headerlink" title="Pre-Installion"></a>Pre-Installion</h3><hr><hr><h3 id="Installion"><a href="#Installion" class="headerlink" title="Installion"></a>Installion</h3><p>将准备安装ArchLinux的分区挂载到/mnt。<br>-<br><code># mount /dev/sda1 /mnt</code></p><p>安装base base-devel软件包组。<br>-<br><code>#pacstrap /mnt base base-devel</code></p><hr><h3 id="Configure"><a href="#Configure" class="headerlink" title="Configure"></a>Configure</h3><p>将FSTAB文件注入/etc。<br>-<br><code># genfstab - U /mnt &gt;&gt; /mnt/etc/fstab</code></p><p>CHROOT进入已安装的ArchLinux。<br>-<br><code>arch-chroot /mnt</code></p><p>设置时区<br>-<br><code>ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime</code></p><hr><h3 id="After-Installion"><a href="#After-Installion" class="headerlink" title="After Installion"></a>After Installion</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;hr&gt;
+&lt;h3 id=&quot;Pre-Installion&quot;&gt;&lt;a href=&quot;#Pre-Installion&quot; class=&quot;headerlink&quot; title=&quot;Pre-Installion&quot;&gt;&lt;/a&gt;Pre-Installion&lt;/h3&gt;&lt;hr&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;In
+      
+    
+    </summary>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>DaiBoYu?</title>
@@ -45,36 +71,15 @@
     <link href="http://yoursite.com/2018/08/05/Test/"/>
     <id>http://yoursite.com/2018/08/05/Test/</id>
     <published>2018-08-05T03:34:39.000Z</published>
-    <updated>2018-08-05T09:05:46.942Z</updated>
+    <updated>2018-08-05T10:24:19.939Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to Here! This is a test post. My name is Cnachen, and I was hired by people to play with ArchLinux. This Blog is made using Hexo, Node.js and git.</p><p><a href="https://github.com/Cnachen/Cnachen.github.io" target="_blank" rel="noopener">GitHUb</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to Here! This is a test post. My name is Cnachen, and I was hired by people to play with ArchLinux. This Blog is made using Hexo, Node.js and git.</p><p><a href="https://github.com/Cnachen/Cnachen.github.io" target="_blank" rel="noopener">GitHub</a></p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;Welcome to Here! This is a test post. My name is Cnachen, and I was hired by people to play with ArchLinux. This Blog is made using Hexo,
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2018/08/05/hello-world/"/>
-    <id>http://yoursite.com/2018/08/05/hello-world/</id>
-    <published>2018-08-05T03:19:03.699Z</published>
-    <updated>2018-08-05T03:19:03.699Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
       
     
     </summary>

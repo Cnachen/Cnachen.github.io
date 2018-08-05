@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2018/08/05/archlinux-installion-guide/</loc>
+    
+    <lastmod>2018-08-05T11:00:21.002Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/08/05/Test/</loc>
+    
+    <lastmod>2018-08-05T10:24:19.939Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2018/08/05/DaiBoYu/</loc>
     
     <lastmod>2018-08-05T10:22:44.290Z</lastmod>
@@ -12,20 +26,6 @@
     <loc>http://yoursite.com/categories/index.html</loc>
     
     <lastmod>2018-08-05T09:06:55.064Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/08/05/Test/</loc>
-    
-    <lastmod>2018-08-05T09:05:46.942Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/08/05/hello-world/</loc>
-    
-    <lastmod>2018-08-05T03:19:03.699Z</lastmod>
     
   </url>
   

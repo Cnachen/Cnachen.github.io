@@ -58,13 +58,13 @@
       <p>
       
         
-Pre-Installion
+Warning对分区表的任何操作都有可能损坏数据，请谨慎操作。
 
-Installion将准备安装ArchLinux的分区挂载到/mnt。-# mount /dev/sda1 /mnt
-安装base base-devel软件包组。-#pacstrap /mnt base base-devel
-
-Configure将FSTAB文件注入/etc。-# genfstab - U /mnt &gt;&gt; /mnt/etc/fstab
-CHROOT进入已安装的ArchLinu
+Pre-Installion先进入ArchISO(这个太简单了，不罗嗦啦)。
+验证是否接入有限网。-# ping archlinux.org
+更新软件时钟。-# timedatectl set-ntp true
+对磁盘进行分区。-1234# fdisk -l# fdisk /dev/sda fdisk&gt; d-n-p-1fdisk&gt; w
+格式化新建分区。-# 
       
       </p>
       

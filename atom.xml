@@ -5,9 +5,9 @@
   <subtitle>Jiangning, Nanjing, Jiangsu</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://cnachen.github.io/"/>
   <updated>2018-08-05T11:00:21.002Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://cnachen.github.io/</id>
   
   <author>
     <name>Cnachen</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>安装ArchLinux的简单记录</title>
-    <link href="http://yoursite.com/2018/08/05/archlinux-installion-guide/"/>
-    <id>http://yoursite.com/2018/08/05/archlinux-installion-guide/</id>
+    <link href="https://cnachen.github.io/2018/08/05/archlinux-installion-guide/"/>
+    <id>https://cnachen.github.io/2018/08/05/archlinux-installion-guide/</id>
     <published>2018-08-05T10:27:10.000Z</published>
     <updated>2018-08-05T11:00:21.002Z</updated>
     
@@ -38,14 +38,14 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+      <category term="Linux" scheme="https://cnachen.github.io/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>DaiBoYu?</title>
-    <link href="http://yoursite.com/2018/08/05/DaiBoYu/"/>
-    <id>http://yoursite.com/2018/08/05/DaiBoYu/</id>
+    <link href="https://cnachen.github.io/2018/08/05/DaiBoYu/"/>
+    <id>https://cnachen.github.io/2018/08/05/DaiBoYu/</id>
     <published>2018-08-05T09:57:34.000Z</published>
     <updated>2018-08-05T10:22:44.290Z</updated>
     
@@ -62,14 +62,14 @@
     </summary>
     
     
-      <category term="SB" scheme="http://yoursite.com/tags/SB/"/>
+      <category term="SB" scheme="https://cnachen.github.io/tags/SB/"/>
     
   </entry>
   
   <entry>
     <title>Test</title>
-    <link href="http://yoursite.com/2018/08/05/Test/"/>
-    <id>http://yoursite.com/2018/08/05/Test/</id>
+    <link href="https://cnachen.github.io/2018/08/05/Test/"/>
+    <id>https://cnachen.github.io/2018/08/05/Test/</id>
     <published>2018-08-05T03:34:39.000Z</published>
     <updated>2018-08-05T10:24:19.939Z</updated>
     

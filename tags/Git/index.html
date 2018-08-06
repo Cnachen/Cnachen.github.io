@@ -17,11 +17,9 @@
 
   
   
-  <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="atom.xml">
+  <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="atom.xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
   
   
-    <link href="https://cdn.bootcss.com/KaTeX/0.7.1/katex.min.css" rel="stylesheet"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
-
   
 </head>
 
@@ -60,16 +58,14 @@
       <p>
       
         
- Markdown语法的简单介绍
+Markdown语法的简单介绍
+Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。它被广泛运用在博客与README中，如GitHub中README.MD就使用了Markdown。
 
-Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。它
-被广泛运用在博客与README中，如GitHub中README.MD就使用了Markdown。
+文本样式及标题
 
- 文本样式及标题
-
-\begin{aligned}
-f_Y(y) &amp; = f_X[h(y)]|h’(y)| \[2ex]
-&amp; = f_X[h(y)]h’(y) \[2e
+\begin{eqnarray}
+\nabla\cdot\vec{E} &=& \frac{\rho}{\epsilon_0} \\
+\nabla\cdot\vec{B} 
       
       </p>
       
@@ -107,12 +103,28 @@ f_Y(y) &amp; = f_X[h(y)]|h’(y)| \[2ex]
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <script type="text/javascript" src="/js/jquery.fitvids.js"></script>
-<script type="text/javascript" src="/js/index.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+<script type="text/javascript" src="/js/index.js"></script>
 
 
 
 
 
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 
 </body>
 </html>

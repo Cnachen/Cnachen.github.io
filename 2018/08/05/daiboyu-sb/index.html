@@ -17,11 +17,9 @@
 
   
   
-  <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="atom.xml">
+  <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="atom.xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
   
   
-    <link href="https://cdn.bootcss.com/KaTeX/0.7.1/katex.min.css" rel="stylesheet"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
-
   
 </head>
 
@@ -56,14 +54,11 @@
     <h1 class="post-title">吊打Dai·Boyu的简单小剧场</h1>
     <section class="post-content">
       <hr>
-<h3 id="qabout-daiboyu"><a class="markdownIt-Anchor" href="#qabout-daiboyu"></a> Q:About DaiBoYu</h3>
-<p>A:Infinite DaiBoYu, a SB.</p>
+<h3 id="Q-About-DaiBoYu"><a href="#Q-About-DaiBoYu" class="headerlink" title="Q:About DaiBoYu"></a>Q:About DaiBoYu</h3><p>A:Infinite DaiBoYu, a SB.</p>
 <hr>
-<h3 id="qwhy-daiboyu-is-a-sb"><a class="markdownIt-Anchor" href="#qwhy-daiboyu-is-a-sb"></a> Q:Why DaiBoYu is a SB?</h3>
-<p>A:Cause he didn’t message me and almost forget me.</p>
+<h3 id="Q-Why-DaiBoYu-is-a-SB"><a href="#Q-Why-DaiBoYu-is-a-SB" class="headerlink" title="Q:Why DaiBoYu is a SB?"></a>Q:Why DaiBoYu is a SB?</h3><p>A:Cause he didn’t message me and almost forget me.</p>
 <hr>
-<h3 id="qsay-something-to-dai"><a class="markdownIt-Anchor" href="#qsay-something-to-dai"></a> Q:Say something to Dai</h3>
-<p>A:Dai has already been dead.</p>
+<h3 id="Q-Say-something-to-Dai"><a href="#Q-Say-something-to-Dai" class="headerlink" title="Q:Say something to Dai"></a>Q:Say something to Dai</h3><p>A:Dai has already been dead.</p>
 
     </section>
     <footer class="post-footer">
@@ -127,12 +122,28 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <script type="text/javascript" src="/js/jquery.fitvids.js"></script>
-<script type="text/javascript" src="/js/index.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+<script type="text/javascript" src="/js/index.js"></script>
 
 
 
 
 
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 
 </body>
 </html>

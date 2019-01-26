@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cnachen.github.io/"/>
-  <updated>2019-01-25T09:53:35.661Z</updated>
+  <updated>2019-01-26T04:54:19.073Z</updated>
   <id>https://cnachen.github.io/</id>
   
   <author>
@@ -21,17 +21,15 @@
     <link href="https://cnachen.github.io/2019/01/25/english-homework/"/>
     <id>https://cnachen.github.io/2019/01/25/english-homework/</id>
     <published>2019-01-25T09:44:28.000Z</published>
-    <updated>2019-01-25T09:53:35.661Z</updated>
+    <updated>2019-01-26T04:54:19.073Z</updated>
     
-    <content type="html"><![CDATA[<hr><h3 id="一月"><a href="#一月" class="headerlink" title="一月"></a>一月</h3><p><a href="baidu.com">二十六日</a><br><a href="baidu.com">二十七日</a></p><hr><h3 id="二月"><a href="#二月" class="headerlink" title="二月"></a>二月</h3><p><a href="baidu.com">一日</a><br><a href="baidu.com">二日</a></p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><h3 id="一月"><a href="#一月" class="headerlink" title="一月"></a>一月</h3><p><a href="baidu.com">二十六日</a><br><a href="baidu.com">二十七日</a></p><hr><h3 id="二月"><a href="#二月" class="headerlink" title="二月"></a>二月</h3><p><a href="baidu.com">一日</a><br><a href="baidu.com">二日</a></p><hr>        <div id="aplayer-HquLiYcm" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-HquLiYcm"),            narrow: false,            autoplay: true,            showlrc: false,            music: {              title: "陽だまりの隙間",              author: "西坂恭平",              url: "https://raw.githubusercontent.com/Cnachen/Cnachen.github.io/master/B.mp3",              pic: "https://raw.githubusercontent.com/Cnachen/Cnachen.github.io/master/A.jpg",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;hr&gt;
-&lt;h3 id=&quot;一月&quot;&gt;&lt;a href=&quot;#一月&quot; class=&quot;headerlink&quot; title=&quot;一月&quot;&gt;&lt;/a&gt;一月&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;baidu.com&quot;&gt;二十六日&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;baidu.com&quot;&gt;二十七日&lt;/a&gt;&lt;/p&gt;
-
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
       
     
     </summary>

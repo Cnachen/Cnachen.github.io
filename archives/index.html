@@ -60,17 +60,16 @@
       <p>
       
         <!-- 
-一月二十六日二十七日
+一月二十六日二十七日二十八日二十九日三十日三十一日
 
-二月一日二日
+二月一日二日三日
 
 
         
             
         
         
-          var ap = new APlayer({
-            ele... -->
+          var ap = new APlayer(... -->
       
       </p>
       
@@ -147,5 +146,20 @@ Markdown是一种可以使用普通文本编辑器编写的标记语言，通过
 
 
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>

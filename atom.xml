@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cnachen.github.io/"/>
-  <updated>2019-01-27T15:46:55.930Z</updated>
+  <updated>2019-01-29T05:05:04.476Z</updated>
   <id>https://cnachen.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://cnachen.github.io/2019/01/25/english-homework/"/>
     <id>https://cnachen.github.io/2019/01/25/english-homework/</id>
     <published>2019-01-25T09:44:28.000Z</published>
-    <updated>2019-01-27T15:46:55.930Z</updated>
+    <updated>2019-01-29T05:05:04.476Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><h3 id="一月"><a href="#一月" class="headerlink" title="一月"></a>一月</h3><p><a href="https://www.lanzous.com/i2zpxbg" target="_blank" rel="noopener">二十六日</a><br><a href="https://www.lanzous.com/i3034rc" target="_blank" rel="noopener">二十七日</a><br><a href="https://www.lanzous.com/i30an0b" target="_blank" rel="noopener">二十八日</a><br><a href="a.com">二十九日</a><br><a href="a.com">三十日</a><br><a href="a.com">三十一日</a></p><hr><h3 id="二月"><a href="#二月" class="headerlink" title="二月"></a>二月</h3><p><a href="baidu.com">一日</a><br><a href="baidu.com">二日</a><br><a href="a.com">三日</a></p><hr>        <div id="aplayer-czPIILdg" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-czPIILdg"),            narrow: false,            autoplay: true,            showlrc: false,            music: {              title: "巡る想いを",              author: "西坂恭平",              url: "http://music.163.com/song/media/outer/url?id=440403801.mp3",              pic: "https://i.loli.net/2019/01/26/5c4bebfdcb663.jpg",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><h3 id="一月"><a href="#一月" class="headerlink" title="一月"></a>一月</h3><p><a href="https://www.lanzous.com/i2zpxbg" target="_blank" rel="noopener">二十六日</a><br><a href="https://www.lanzous.com/i3034rc" target="_blank" rel="noopener">二十七日</a><br><a href="https://www.lanzous.com/i30an0b" target="_blank" rel="noopener">二十八日</a><br><a href="https://www.lanzous.com/i30v9ra" target="_blank" rel="noopener">二十九日</a><br><a href="a.com">三十日</a><br><a href="a.com">三十一日</a></p><hr><h3 id="二月"><a href="#二月" class="headerlink" title="二月"></a>二月</h3><p><a href="baidu.com">一日</a><br><a href="baidu.com">二日</a><br><a href="a.com">三日</a></p><hr>        <div id="aplayer-KNuEDyHs" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-KNuEDyHs"),            narrow: false,            autoplay: true,            showlrc: false,            music: {              title: "巡る想いを",              author: "西坂恭平",              url: "http://music.163.com/song/media/outer/url?id=440403801.mp3",              pic: "https://i.loli.net/2019/01/26/5c4bebfdcb663.jpg",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script>]]></content>
     
     <summary type="html">
     
